@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Major+Mono+Display&family=Oswald:wght@700&family=Roboto+Condensed:wght@500&display=swap');
+body{
+background: url("images/backImage.jpg");
+margin: 0;
+padding: 0;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  header,div,section,footer {
+  position: relative;
+  z-index: 1;
+}
+
+header{
+    background-color:rgb(36, 33, 33);
+    padding: 10px;
+}
+
+section{
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    margin: 0 20px;
+}
+nav a{
+    font-size: 20px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+
+.Location_SECTION{
+    display: flex;
+    margin-bottom: 1%;
+    padding: 3%;
+    line-height: 15px;
+}
+.Gallery_DIV, .News_DIV, .Contact_DIV, .Bron_DIV{
+    flex: 1;
+}
+.Location_SECTION h2{
+    font-size: 20px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+.Location_SECTION span, p{
+    font-size: 15px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+.Contact_DIV h3{
+    font-size: 18px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+ .TopButtons{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    width: 30%;
+    height: 25%;
+    border: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.MiddleButton{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    width: 30%;
+    height: 17%;
+    border: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.ButtomButton{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 17%;
+    border: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+input[type=button]:hover{
+    background-color: white;
+    color: black;
+}
+input[type=button]:active{
+    background-color: rgb(125, 125, 126);
+}
+
+input[type=text], input[type=tel]{
+    color: black;
+    border: black;
+    border-style: solid;
+    font-size: 1rem;
+    margin-left: 3%;
+    font-family: 'Oswald', sans-serif;
+}
+.Location-DIV{
+    display: flex;
+    margin: 6.2%;
+}
+
+.LogoH1H2{
+    color: white;
+    text-align: center;
+}
+.LogoH1H2 h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-style: italic;
+}
+.LogoH1H2 h1{
+    font-family: 'Major Mono Display';
+    font-size: 45px; 
+}
+footer{
+    background-color: rgb(36, 33, 33);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
